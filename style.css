@@ -17,7 +17,7 @@ html {
 }
 
 h1, h2, h3 {
-	color: #666;
+	color: #222222;
 }
 
 header,
@@ -46,7 +46,7 @@ nav {
 	flex-flow: row;
 	justify-content: center;
 
-	background: #333;
+	background: #222222;
 }
 
 nav a {
@@ -83,7 +83,7 @@ section ul {
 }
 
 #projects article {
-	background: #ccc;
+	background: #C8CAC9;
 	padding: 1em;
 }
 
@@ -95,7 +95,7 @@ section ul {
 footer {
 	margin-top: 2em;
 	margin-bottom: 1em;
-	background: #666;
+	background: #222222;
 	color: #fff;
 	padding: 1em 0;
 	text-align: center;
