@@ -1,6 +1,6 @@
 * {
 	font-family: sans-serif;
-	line-height: 1.618em;
+	line-height: 1.5em;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -79,7 +79,7 @@ section ul {
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: auto;
 
-	grid-column-gap: 1em;
+	grid-column-gap: .5em;
 }
 
 #projects article {
@@ -89,7 +89,7 @@ section ul {
 
 #projects article img {
 	width: 100%;
-	border: 1px solid #D6D6D6;
+	border: 3px solid #D6D6D6;
 }
 
 footer {
