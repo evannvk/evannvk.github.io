@@ -33,7 +33,7 @@ header h1 {
 
 header span {
 	font-size: 1.5em;
-	color: #999;
+	color: #878787;
 }
 
 nav {
@@ -76,15 +76,15 @@ section ul {
 
 #projects {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(3, 3fr);
 	grid-template-rows: auto;
 
-	grid-column-gap: .5em;
+	grid-column-gap: 2em;
 }
 
 #projects article {
-	background: #C8CAC9;
-	padding: 1em;
+	background: #BAD8A6;
+	padding: .5em;
 }
 
 #projects article img {
