@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.about {
+  padding: 10px;
+  display: block;
+  justify-content: center;
+  align-items: left;
+  width: 350px;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  padding: 10px;
+}
+
+.links {
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.evanMain {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.evan-pic {
+  width: 200px;
+}
+
+.project-button {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 50%;
+  min-width: 25%;
+}
+
+.project {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.project-description {
+  display: flex;
+  max-width: 50%;
+}

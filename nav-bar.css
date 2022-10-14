@@ -1,0 +1,72 @@
+:root {
+  --color1-grey-blue: #4f7bb6;
+  --color2-baby-blue: #66bde6;
+  --color3-royal-blue: #2132c7;
+  --color4-grey: #4b4b4b;
+  --color5-rich-black: #050609;
+  --nav-font: ;
+  --header-font: ;
+  --content-font: ;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav {
+  background-color: var(--color2-baby-blue);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.footer-nav li:nth-child(1) div {
+  background-image: url(/images/email.jpg);
+}
+
+.footer-nav li:nth-child(2) div {
+  background-image: url(/images/linkedin.jpg);
+}
+
+.footer-nav li:nth-child(3) div {
+  background-image: url(/images/github.jpg);
+}
+
+nav {
+  background-color: var(--color2-baby-blue);
+}
+
+.nav-image {
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+
+.nav-image:hover {
+  transform: scale(1.1);
+}
+
+nav li {
+  padding: 5px;
+  font-family: var(--nav-font);
+  font-size: 20px;
+}
+
+nav li:hover {
+  font-weight: bolder;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav-list {
+  color: var(--color5-rich-black);
+}
