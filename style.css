@@ -37,9 +37,12 @@ a:visited {
   color: black;
 }
 
-.about-me {
+.about {
   font-family: var(--content-font);
   padding: 20px;
+  background-color: #99c3d6;
+  margin: 50px;
+  border-radius: 0.5em;
 }
 
 .container {
