@@ -16,7 +16,7 @@
 }
 
 .footer-nav {
-  background-color: var(--color2-baby-blue);
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -24,15 +24,15 @@
 }
 
 .footer-nav li:nth-child(1) div {
-  background-image: url(/images/email.webp);
+  background-image: url(images/email_icon_AT.png);
 }
 
 .footer-nav li:nth-child(2) div {
-  background-image: url(/images/linkedin.png);
+  background-image: url(images/linkn_icon_AT.png);
 }
 
 .footer-nav li:nth-child(3) div {
-  background-image: url(/images/github.png);
+  background-image: url(images/Git_icon_AT.png);
 }
 
 nav {

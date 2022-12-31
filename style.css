@@ -4,9 +4,9 @@
   --color3-royal-blue: #2132c7;
   --color4-grey: #4b4b4b;
   --color5-rich-black: #050609;
-  --nav-font: ;
-  --header-font: ;
-  --content-font: ;
+  --nav-font: "Playfair Display", Playfair;
+  --header-font: "Playfair Display", Playfair;
+  --content-font: "Playfair Display", Playfair;
 }
 
 * {
@@ -21,10 +21,6 @@
     flex-direction: column;
     place-items: center;
   }
-}
-
-a {
-  background-color: var(--color2-baby-blue);
 }
 
 a:link {
